@@ -1,0 +1,117 @@
+
+
+/* header styled */
+.header{
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-left{
+  padding: 50px;
+}
+.header-title{
+  font-size: 60px;
+}
+.header-description{
+   color:#857979;
+   font-size: 16px;
+}
+.header-image{
+  width: 500px;
+  height: 600px;
+}
+.btn-primary{
+  font-size: 20px;
+  color:#FFFFFF;
+  height: 50px ;
+  width: 150px;
+  background-color: #E55473;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.featured-flowers-title{
+  font-size: 40px;
+  text-align: center;
+}
+.featured-flowers-description{
+  text-align: center;
+  color: #857979;
+  font-size: 16px;
+}
+.featured-flowers-vase{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+
+}
+.featured-flowers-vase>img{
+  /* width: 200px; */
+  /* height: 200px; */
+  /* padding: 10px; */
+  max-width: 80%;
+max-height: 80%;
+object-fit: cover;
+  /* background-size:; */
+}
+.vase1,.vase2,.vase3{
+  background-color: rgb(193, 234, 300);
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+}
+.Pick-title{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.small-section{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 50px;
+  text-align: center;
+  margin: 10px auto;
+}
+.small-section>div{
+  width: 340px;
+  height: 140px;
+}
+.small-section>img{
+  /* padding: 10px 30px; */
+}
+.banner{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner-left{
+  text-align: center;
+}
+.instagram-flowers{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+.instagram-flowers>img{
+  height: 350px;
+  width: 300px;
+}
+.get-deals{
+  background-image:url('../Flower Asset/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px 110px;
+  padding: 50px 100px;
+}
+.footer{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 100px;
+  /* font-size: 48px; */
+}
+.footer p{
+  color:#857979;
+}
