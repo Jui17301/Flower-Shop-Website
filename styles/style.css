@@ -98,6 +98,26 @@ object-fit: cover;
   height: 350px;
   width: 300px;
 }
+
+.Pick-title{
+  padding-top: 30px;
+}
+.flowers-vase1{
+  background-image: url('../Flower Asset/Bg-pink.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flowers-vase2{
+  background-image: url('../Flower Asset/Bg-green.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flowers-vase3{
+  background-image: url('../Flower Asset/Bg-blue.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* position: relative; */
+}
 .get-deals{
   background-image:url('../Flower Asset/Rectangle\ 9.png');
   background-repeat: no-repeat;
